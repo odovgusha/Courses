@@ -1,0 +1,34 @@
+[
+  {
+    "type": "bed",
+    "name": "clusters_HisC_time_down",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed_clusters/clusters_HisC_time_down.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "clusters_HisC_time_up",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed_clusters/clusters_HisC_time_up.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "clusters_Wm_time_down",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed_clusters/clusters_Wm_time_down.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "clusters_Wm_time_up",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed_clusters/clusters_Wm_time_up.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  }
+]

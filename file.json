@@ -1,0 +1,66 @@
+[
+  {
+    "type": "bw",
+    "name": "HisC-4h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/HisC-4h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "HisC-5h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/HisC-5h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "HisC-6h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/HisC-6h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "HisC-7h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/HisC-7h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "w-4h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/w-4h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "w-5h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/w-5h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "w-6h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/w-6h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bw",
+    "name": "w-7h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/rna_seq_bw/w-7h_merged.bw",
+    "options": {
+      "color": "blue"
+    }
+  }
+]

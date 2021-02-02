@@ -1,0 +1,66 @@
+[
+  {
+    "type": "bed",
+    "name": "HisC-4h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/HisC-4h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "HisC-5h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/HisC-5h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "HisC-6h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/HisC-6h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "HisC-7h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/HisC-7h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "Wm-4h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/Wm-4h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "Wm-5h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/Wm-5h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "Wm-6h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/Wm-6h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  },
+  {
+    "type": "bed",
+    "name": "Wm-7h",
+    "url": "https://ipscspublic.s3.eu-central-1.amazonaws.com/Dominik_dm6/bed/Wm-7h.bed.gz",
+    "options": {
+      "color": "blue"
+    }
+  }
+]
