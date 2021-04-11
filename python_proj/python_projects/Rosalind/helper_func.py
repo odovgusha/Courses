@@ -1,13 +1,41 @@
+def seq_reader(path):
+    file=path
+    print("reading ")
+    #file = "rosalind_revp.txt"
+    dna_seq = []
+    a = 0
+    parsing = False
+    with open(file, 'r') as f:
+        print("reading ",file)
+        inRecordingMode = False
+        new_line = ""
+        for line in f:
+            if not inRecordingMode:
+                if line.startswith('>'):
+                    #print(line)
+                    inRecordingMode = True
+            elif line.startswith('>'):
+                #print(line)
+                dna_seq.append(new_line)
+                #print(new_line)
+                new_line = ""
+                inRecodingMode = False
+            else:
+                new_line+=(line.strip())
+        else:
+            dna_seq.append(new_line)
+    return(dna_seq)
+
 def dna2rna(dna_seq):
- rna_seq=""
- for i in range(0,len(dna_seq)):
-  if dna_seq[i] == "T":
-   rna_seq+="U"
-  else:
-   rna_seq+=dna_seq[i]
- return(rna_seq)
+    rna_seq=""
+    for i in range(0,len(dna_seq)):
+        if dna_seq[i] == "T":
+            rna_seq+="U"
+        else:
+            rna_seq+=dna_seq[i]
+    return(rna_seq)
  
-print(dna2rna("ATGCTTTTGCGCAAA"))
+#print(dna2rna("ATGCTTTTGCGCAAA"))
 
 def translate(seq, t_type = 1): 
     table2 = { 
@@ -57,3 +85,17 @@ def translate(seq, t_type = 1):
             codon = seq[i:i + 3] 
             protein+= table[codon] 
     return protein
+
+def rev_c(rev):
+    rev_comp=""
+    for x in rev:
+        if x == "A":
+            rev_comp+="T"
+        elif x == "T":
+            rev_comp+="A"
+        elif x == "G":
+            rev_comp+="C"
+        elif x == "C":
+            rev_comp+="G"
+    return(rev_comp)
+
